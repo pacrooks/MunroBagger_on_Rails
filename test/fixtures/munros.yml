@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  height: 1
+  gridref_letters: MyString
+  gridref_eastings: MyString
+  gridref_northings: MyString
+  latlng_lat: 1.5
+  latlng_lng: 1.5
+  smcid: MyString
+  weatherid: MyString
+  region: MyString
+  meaning: MyString
+
+two:
+  name: MyString
+  height: 1
+  gridref_letters: MyString
+  gridref_eastings: MyString
+  gridref_northings: MyString
+  latlng_lat: 1.5
+  latlng_lng: 1.5
+  smcid: MyString
+  weatherid: MyString
+  region: MyString
+  meaning: MyString
