@@ -8,6 +8,10 @@ Rails.application.routes.draw do
   get 'munros/:id' => "munro#show"
 
   get 'bagged_munros' => 'bagged_munro#index'
+  post 'bagged_munros' => 'bagged_munro#create'
+  delete 'bagged_munros/:id' => 'bagged_munro#destroy'
+  patch 'bagged_munros/:id' => 'bagged_munro#update'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
