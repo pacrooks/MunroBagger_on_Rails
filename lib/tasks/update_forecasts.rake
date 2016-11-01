@@ -1,6 +1,6 @@
 desc "Retrieve updated weather forecasts from the MetOffice API"
 task :update_forecasts => :environment do
-  puts "Updating foorecasts"
+  puts "Updating forecasts"
   UpdateForecastsWorker.perform()
-  puts "done."
+  puts "Done."
 end
