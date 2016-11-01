@@ -11,3 +11,5 @@
 /log/*
 !/log/.keep
 /tmp
+
+app/workers/api_key.rb
