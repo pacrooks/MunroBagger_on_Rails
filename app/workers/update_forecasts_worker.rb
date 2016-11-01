@@ -1,7 +1,7 @@
 require 'httparty'
-require_relative('./api_key.rb')
+# require_relative('./api_key.rb')
 
-# key = ENV['MET_OFFICE_API']
+key = ENV['MET_OFFICE_API']
 
 class UpdateForecastsWorker
   include HTTParty
@@ -13,7 +13,7 @@ class UpdateForecastsWorker
   end
 
   def self.update_all_forecasts
-    key = get_key
+    # key = get_key
     Forecast.all().each do |forecast|
       Thread.new {
         puts "MunroID = #{forecast.mountain_id}"
