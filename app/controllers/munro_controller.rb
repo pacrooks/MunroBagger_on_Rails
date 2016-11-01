@@ -1,7 +1,7 @@
 class MunroController < ApplicationController
 
   # before_action(:authenticate_user!)
-  
+
 
   def shape_munro( mtn )
     fc = Forecast.where( { munro_id: mtn.id } )
