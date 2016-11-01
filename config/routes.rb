@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   delete 'bagged_munros/:id' => 'bagged_munro#destroy'
   patch 'bagged_munros/:id' => 'bagged_munro#update'
 
+  # get ':action' => 'static#:action'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
