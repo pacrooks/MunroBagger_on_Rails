@@ -1,5 +1,9 @@
-#Munro Bagger Revisited
+#Munro Bagger on Rails
+Revisited Project 3 with a view to rewrite the project using frameworks recently taught at CodeClan (Ruby on Rails and React.js)
+
 [Existing Codebase](https://github.com/johneas10/project3_Munro_Bagger)
+
+[Link to React Codebase](https://github.com/siansrd/Munro_Bagger)
 
 ## Team
 - John Easton
@@ -10,11 +14,7 @@
 - Refactor existing back-end codebase to make use of Ruby on Rails
 - Refactor existing front-end codebase to make use of React.js
 - Add proper login functionality ([Devise](https://github.com/plataformatec/devise))
-- Deploy!
-
-
-##Further Development
-- TBC
+- Deploy on Heroku!
 
 ##Learning Outcomes
 - Self Directed Learning
@@ -23,23 +23,20 @@
 
 ## Technologys Used
 
-- JavaScript
-- React.js
-- Node.js
+- Heroku
 - Ruby On Rails
 - PostgreSQL
-- Mocha
+- Devise
+- HTTParty
+- JavaScript
+- React.js
 - WebPack
-- HTML
 - CSS
-- Heroku
+- HTML
+
 
 ## APIs Used
 
 - Google Maps API
 - MetOffice API
-- TBC
 
-## Installation Instructions
-
-- TBC
