@@ -2,7 +2,6 @@ class MunroController < ApplicationController
 
   # before_action(:authenticate_user!)
 
-
   def shape_munro( mtn )
     fc = Forecast.where( { munro_id: mtn.id } )
     return {
@@ -31,12 +30,11 @@ class MunroController < ApplicationController
 
   def index
     munros = Munro.all().map { | mtn | shape_munro(mtn) }
-
     render({json: munros.as_json()})
   end
 
   def show
-    munro = shape_munro (Munro.find( params[:id] ).first)
+    munro = shape_munro (Munro.find( params[:id] ))
     render :json => munro
   end
 

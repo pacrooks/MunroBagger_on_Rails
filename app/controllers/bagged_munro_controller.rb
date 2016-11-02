@@ -5,7 +5,6 @@ class BaggedMunroController < ApplicationController
   def index
     bagged = current_user.bagged_munros.all()
     render({json: bagged.as_json({except: [:user_id, :created_at, :updated_at]})})
-    # puts bagged
   end
 
   def create
